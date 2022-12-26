@@ -245,6 +245,7 @@ SYMBOL_NAMES = (
     "PyExc_FileExistsError",
     "PyExc_FileNotFoundError",
     "PyExc_FloatingPointError",
+    "PyExc_FooBarBaz",
     "PyExc_FutureWarning",
     "PyExc_GeneratorExit",
     "PyExc_IOError",

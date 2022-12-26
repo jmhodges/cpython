@@ -535,7 +535,8 @@ PyObject *PyExc_ ## EXCNAME = (PyObject *)&_PyExc_ ## EXCNAME
 SimpleExtendsException(PyExc_BaseException, Exception,
                        "Common base class for all non-exit exceptions.");
 
-
+SimpleExtendsException(PyExc_Exception, FooBarBaz,
+                       "A cool new exception type");
 /*
  *    TypeError extends Exception
  */
@@ -3476,6 +3477,7 @@ static struct static_exception static_exceptions[] = {
     ITEM(BufferError),
     ITEM(EOFError),
     //ITEM(ExceptionGroup),
+    ITEM(FooBarBaz),
     ITEM(ImportError),
     ITEM(LookupError),
     ITEM(MemoryError),

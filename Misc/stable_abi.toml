@@ -754,6 +754,8 @@
     added = '3.2'
 [data.PyExc_RuntimeError]
     added = '3.2'
+[data.PyExc_FooBarBaz]
+    added = '3.2'
 [data.PyExc_RuntimeWarning]
     added = '3.2'
 [data.PyExc_StopIteration]
